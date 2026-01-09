@@ -2,6 +2,7 @@
 .font-open-sans {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  margin: 0;
 }
 
 header {
@@ -249,6 +250,16 @@ idea-section img {
     border-radius: 12px;
     margin: 0 120px 80px 120px ;
 }
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+}
+
+
+
 
 footer {
     background-color: #001931;   
