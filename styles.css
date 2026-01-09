@@ -249,3 +249,28 @@ idea-section img {
     border-radius: 12px;
     margin: 0 120px 80px 120px ;
 }
+
+footer {
+    background-color: #001931;   
+}
+
+.fhade{
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 200px 80px 120px;  
+
+}
+
+hr {
+  border: none;           
+  border-top: 2px solid #eee0e0; 
+  width: 85%;              
+  margin: 20px auto;       
+}
+
+.footer-bottom{
+    color:#FAFAFA;
+    text-align: center;   
+}
