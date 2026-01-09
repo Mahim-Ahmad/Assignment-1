@@ -43,6 +43,9 @@ header {
     border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .btn1:hover {
@@ -172,7 +175,7 @@ header {
   padding: 24px;
   border-radius: 12px 12px 0 0;
   text-align: center;
-    box-shadow: 0  0 5px 0  rgba(0, 0, 0, 0.1);
+box-shadow: 0  0 5px 0  rgba(0, 0, 0, 0.1);
 
 }
 
@@ -198,4 +201,51 @@ header {
 .cards-section {
     padding: 80px 0;
     background-color: #ffffff;
+}
+
+.idea-features p {
+  display: flex;
+  align-items: center;  
+  gap: 10px;             
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #444;
+  margin-bottom:20px;
+  font-weight: bold;
+}
+
+.idea-features img {
+  width: 18px;
+  height: 18px;
+}
+
+.idea-section {
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 80px;
+}
+
+idea-section img {
+    width: 50%;
+}
+
+.idea-content h1 {
+    font-size: 48px;
+    font-weight: 1200;
+    margin-bottom: 24px;
+}
+
+.green {
+    color: #30B868;
+}
+
+.final-cta-section {
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 12px;
+    margin: 0 120px 80px 120px ;
 }
